@@ -1,0 +1,71 @@
+# Hospital Management Data Analysis Report
+
+## Overview
+This report analyzes hospital data to evaluate costs, quality ratings, and facility performance.
+
+## Key Findings
+
+### 1. Average Cost of Procedures
+- The average cost of procedures varies significantly across different facility types. For instance, Church Facility.Type has the highest average cost for Pneumonia while **Government** has the lowest.
+
+### 2. Quality Ratings Distribution
+Heart Attack Quality Ratings Distribution:
+   Quality  Count
+0  Average   2197
+1   Better     45
+2  Unknown   2506
+3    Worse     24
+Heart Failure Quality Ratings Distribution:
+   Quality  Count
+0  Average   3141
+1   Better    196
+2  Unknown   1300
+3    Worse    135
+Pneumonia Quality Ratings Distribution:
+   Quality  Count
+0  Average   3555
+1   Better    219
+2  Unknown    759
+3    Worse    239
+Hip Knee Quality Ratings Distribution:
+   Quality  Count
+0  Average   2615
+1   Better     68
+2  Unknown   2045
+3    Worse     44
+
+### 3. Facilities with Highest and Lowest Ratings
+Facilities with Highest Ratings:
+                     Facility.Name Facility.City Facility.State  \
+0   Marion Regional Medical Center      Hamilton             AL   
+1           Fayette Medical Center       Fayette             AL   
+2      Lakeland Community Hospital    Haleyville             AL   
+3            St Vincent's St Clair     Pell City             AL   
+4  Jack Hughston Memorial Hospital   Phenix City             AL   
+5      Fairbanks Memorial Hospital     Fairbanks             AK   
+6         Alaska Regional Hospital     Anchorage             AK   
+7      Verde Valley Medical Center    Cottonwood             AZ   
+8         Flagstaff Medical Center     Flagstaff             AZ   
+9             Mayo Clinic Hospital       Phoenix             AZ   
+
+Facilities with Lowest Ratings:
+                    Facility.Name  Facility.City Facility.State  \
+0           Callahan Eye Hospital     Birmingham             AL   
+1             Bibb Medical Center    Centreville             AL   
+2           J Paul Jones Hospital         Camden             AL   
+3         Bullock County Hospital  Union Springs             AL   
+4  Hill Hospital Of Sumter County           York             AL   
+5            St Vincent's Chilton        Clanton             AL   
+6      Washington County Hospital         Chatom             AL   
+7                Red Bay Hospital        Red Bay             AL   
+8        Choctaw General Hospital         Butler             AL   
+9  Children's Hospital Of Alabama     Birmingham             AL   
+
+### 4. Cost and Quality Correlation
+
+Heart Attack Procedure:
+ - Higher costs tend to be associated with higher quality ratings, but the relationship is not perfectly linear.
+
+Hip Knee Procedure:
+ - A moderate correlation was found between cost and quality ratings.
+
